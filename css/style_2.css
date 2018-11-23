@@ -1,0 +1,80 @@
+.square1{
+	width: 100px;
+	height: 100px;
+	background: transparent;
+	border: solid 5px red;
+	margin: 200px auto 0 auto;
+	animation: squar1 2s cubic-bezier(.20,0,.80,1) 0s infinite normal forwards;
+}
+@keyframes squar1{
+	from{transform-origin: center center;}
+	50%{transform-origin: 220px 50px;}
+	to{transform-origin: 50px 50px;}
+	from{transform: rotate(0deg);}
+	50%{transform: rotate(45deg);}
+	to{transform: rotate(90deg);}
+	from{border-color: black;}
+	30%{border-color: red;}
+	70%{border-color: red;}
+	to{border-color: black;;}
+}
+.square2{
+	width: 100px;
+	height: 100px;
+	background: transparent;
+	border: solid 5px orange;
+	margin: -100px auto 0 auto;
+	animation: squar2 2s cubic-bezier(.20,0,.80,1) 0s infinite normal forwards;
+}
+@keyframes squar2{
+	from{transform-origin: center center;}
+	50%{transform-origin: 50px 122px;}
+	to{transform-origin: 50px 50px;}
+	from{transform: rotate(0deg);}
+	50%{transform: rotate(44deg);}
+	to{transform: rotate(90deg);}
+	from{border-color: black;}
+	30%{border-color: orange;}
+	70%{border-color: orange;}
+	to{border-color: black;;}
+}
+.square3{
+	width: 100px;
+	height: 100px;
+	background: transparent;
+	border: solid 5px blue;
+	margin: -100px auto 0 auto;
+	animation: squar3 2s cubic-bezier(.20,0,.80,1) 0s infinite normal forwards;
+}
+@keyframes squar3{
+	from{transform-origin: center center;}
+	50%{transform-origin: -19px -49px;}
+	to{transform-origin: 50px 50px;}
+	from{transform: rotate(0deg);}
+	50%{transform: rotate(45deg);}
+	to{transform: rotate(90deg);}
+	from{border-color: black;}
+	30%{border-color: blue;}
+	70%{border-color: blue;}
+	to{border-color: black;;}
+}
+.square4{
+	width: 100px;
+	height: 100px;
+	background: transparent;
+	border: solid 5px green;
+	margin: -100px auto 0 auto;
+	animation: squar4 2s cubic-bezier(.20,0,.80,1) 0s infinite normal forwards;
+}
+@keyframes squar4{
+	from{transform-origin: center center;}
+	50%{transform-origin: 150px -118px;}
+	to{transform-origin: 50px 50px;}
+	from{transform: rotate(0deg);}
+	50%{transform: rotate(45deg);}
+	to{transform: rotate(90deg);}
+	from{border-color: black;}
+	30%{border-color: green;}
+	70%{border-color: green;}
+	to{border-color: black;;}
+}
